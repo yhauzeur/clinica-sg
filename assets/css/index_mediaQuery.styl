@@ -1,0 +1,69 @@
+@import "index_variables"
+
+// @media mw768 (orientation: landscape)
+//     header
+//         height: 100vh
+
+@media mw2560
+    main
+        article
+            .services
+                .service
+                    grid-template-columns: repeat(5, 20%)
+@media mw1440
+    main
+        article
+            .services
+                .service
+                    grid-template-columns: repeat(4, 25%)
+
+@media mw1024
+    main
+        article
+            .services
+                .service
+                    grid-template-columns: repeat(3, 33.3%)
+
+@media mw768
+    header
+        height 80vh
+        text-align: center
+        .header-style
+            position: relative
+            top 20%
+            margin  0
+            figure
+                img
+                    display: inline
+            nav
+                display: none
+    main
+        article
+            .services
+                .service
+                    grid-template-columns: 50% 50%
+
+    .bg-mujer
+        .servicios-icons
+            i
+                font-size: 3em
+                margin-top .8em
+                padding .2em
+
+@media mw425
+    main
+        article
+            .services
+                .service
+                    grid-template-columns: 100%
+    .bg-mujer
+        .servicios-icons
+            grid-template-columns: repeat(3, 33.3%)
+            i
+                font-size: 2.5em
+                margin-top .5em
+
+@media Mw1024
+    header
+        .fa-phone-square-alt
+            display: none

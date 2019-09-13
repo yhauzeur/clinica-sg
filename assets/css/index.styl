@@ -1,0 +1,109 @@
+@import "index_variables"
+
+body
+    border 0
+    font-family: 'Lato', sans-serif;
+    margin 0
+    padding 0
+
+h1, h2, h3, h4, h5, h6
+    font-family: 'Oswald', sans-serif;
+
+a, p, li
+    font-family: 'Roboto Condensed', sans-serif;
+
+header
+    background-image: url("../img/jj-ying-7JX0-bfiuxQ-unsplash.jpg")
+    background-repeat: no-repeat
+    background-size: cover
+    box-sizing: border-box
+    height 800px
+    width 100%
+    .fa-phone-square-alt
+        color #00e03a
+    // .fa-phone-square-alt:hover
+    //     color gris
+    .header-style
+        margin-left 5%
+        position: relative
+        top 30%
+        figure
+            border 0
+            margin 0
+            padding 0
+            img
+                display: block
+                max-height: 80px
+                padding-top: 1.5em
+        nav
+            ul
+                border 0
+                margin 0
+                padding 0
+                li
+                    display: inline-block
+                    font-size: 1.5em
+                    padding 0 10px
+                    a
+                        color rgba( black, 80%)
+                        text-decoration: none
+                    a:hover
+                        color rgba(azul , 80%)
+                        text-decoration: underline
+        h1
+            font-size: 2.5em
+            margin-bottom 0
+            color gris
+            #azul
+                color azul
+        h2
+            color rgba(gris, .8)
+            margin-top 0
+
+.info
+    display flex
+    flex-wrap: wrap
+    justify-content: center
+    margin 0
+    padding 0
+    position relative
+    top -5em
+    a
+        color #fff
+        text-decoration: none
+        .info-box-1, .info-box-2, .info-box-3, .info-box-4
+            max-height 250px
+            max-width: 600px
+            padding: 1em
+            width 250px
+            h3, p
+                display: block
+                text-align: center
+            h3
+                margin-bottom 0
+                letter-spacing: 1px
+                text-transform: uppercase
+            p
+                color rgba(#fff, .7)
+                font-size: 1.1em
+                line-height: 1.5em
+        .info-box-1:hover, .info-box-2:hover, .info-box-3:hover, .info-box-4:hover
+            box-sizing: border-box
+            position relative
+            top -1.5em
+            transition .3s
+            width 300px
+            z-index: 1
+        .info-box-1
+            background azul
+        .info-box-2
+            background azul10
+
+        .info-box-3
+            background azul20
+
+        .info-box-4
+            background azul30
+
+
+@import "index_mediaQuery"
