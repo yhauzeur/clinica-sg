@@ -105,5 +105,53 @@ header
         .info-box-4
             background azul30
 
+main
+    max-width 1024px
+    position relative
+    margin 0 auto
+    padding 0 2em
+    box-sizing: border-box
+    // top: -3em
+    article
+        .description
+                img
+                    border-radius: 1em
+                    float left
+                    margin-bottom .5em
+                    padding-right 1em
+                    width 250px
+                p
+                    font-size: 1.2em
+        .services
+            .service
+                display grid
+                grid-template-columns: 33% 33% 33%
+                .item-service
+                    padding: 0 20px
+.bg-mujer
+    background-image: url('../img/ani-kolleshi-vu-DaZVeny0-unsplash.jpg')
+    background-position: left
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment fixed
+    box-sizing: border-box
+    min-height 350px
+    width auto
+    .servicios-icons
+        display: grid
+        grid-template-columns: repeat(4, 25%)
+        justify-content: space-around
+        box-sizing: border-box
+        margin 0 auto
+        text-align: center
+        i
+            padding-top .5em
+            font-size: 3.5em
+            color azul
+            p
+                font-size: 1rem
+                font-weight: 400
+        i:hover
+            color gris
 
 @import "index_mediaQuery"
