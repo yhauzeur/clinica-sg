@@ -20,9 +20,9 @@ header
     height 800px
     width 100%
     .fa-phone-square-alt
+        color azul
+    .fa-phone-square-alt:hover
         color #00e03a
-    // .fa-phone-square-alt:hover
-    //     color gris
     .header-style
         margin-left 5%
         position: relative
@@ -109,7 +109,7 @@ main
     max-width 1024px
     position relative
     margin 0 auto
-    padding 0 2em
+    padding 0 1em
     box-sizing: border-box
     // top: -3em
     article
@@ -120,14 +120,27 @@ main
                     margin-bottom .5em
                     padding-right 1em
                     width 250px
-                p
-                    font-size: 1.2em
-        .services
-            .service
-                display grid
-                grid-template-columns: 33% 33% 33%
+            .services
+                overflow-x auto
+                margin-bottom 3em
+                white-space nowrap
                 .item-service
-                    padding: 0 20px
+                    background rgba(azul, 1)
+                    border-radius: 20px
+                    box-sizing border-box
+                    color white
+                    display inline-block
+                    margin auto 10px
+                    max-height 100vh
+                    max-width 70%
+                    padding 1em 1em
+                    white-space: normal
+                    h2
+                        border-bottom: 1px solid rgba(white, .5)
+                        width 50%
+                    ul, li
+                        margin .5em
+                        padding 0 .5em
 .bg-mujer
     background-image: url('../img/ani-kolleshi-vu-DaZVeny0-unsplash.jpg')
     background-position: left
@@ -153,5 +166,10 @@ main
                 font-weight: 400
         i:hover
             color gris
+    #diagnostica
+        color rgba(gris, .8)
+    #diagnostica:hover
+        color rgba(gris, 1)
+    
 
 @import "index_mediaQuery"

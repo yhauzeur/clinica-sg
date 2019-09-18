@@ -1,28 +1,9 @@
 @import "index_variables"
 
 // @media mw768 (orientation: landscape)
-//     header
-//         height: 100vh
-
-@media mw2560
-    main
-        article
-            .services
-                .service
-                    grid-template-columns: repeat(5, 20%)
-@media mw1440
-    main
-        article
-            .services
-                .service
-                    grid-template-columns: repeat(4, 25%)
-
-@media mw1024
-    main
-        article
-            .services
-                .service
-                    grid-template-columns: repeat(3, 33.3%)
+// @media mw2560
+// @media mw1440
+// @media mw1024
 
 @media mw768
     header
@@ -31,18 +12,12 @@
         .header-style
             position: relative
             top 20%
-            margin  0
+            margin 0
             figure
                 img
                     display: inline
             nav
                 display: none
-    main
-        article
-            .services
-                .service
-                    grid-template-columns: 50% 50%
-
     .bg-mujer
         .servicios-icons
             i
@@ -53,9 +28,10 @@
 @media mw425
     main
         article
-            .services
-                .service
-                    grid-template-columns: 100%
+            .description
+                img
+                    width 100%
+
     .bg-mujer
         .servicios-icons
             grid-template-columns: repeat(3, 33.3%)
