@@ -1,0 +1,76 @@
+1 Consulta prioritaria
+--------------------------------------------------------------
+2 Consulta programada por especialista
+	Medicina Familiar
+	Pediatría
+	Ginecología
+--------------------------------------------------------------
+3 Imagen diagnostica
+	Riadiologia
+	Ecografia
+--------------------------------------------------------------
+4 Laboratoriio clinico
+--------------------------------------------------------------
+5 Electrocardiografia
+--------------------------------------------------------------
+6 Terapia respiratoria
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+Consulta prioritaria
+	Servicio ambulatorio en el que la Clínica Santa Gertrudis ofrece una atención medica inmediata sin citas con el animo de cubrir la necesidades de atención en pacientes que cursan con enfermedades no vitales. Los cuales pueden ser diagnosticados y direccionados dependiendo de la necesidad de cada uno de ellos.
+	Se proporciona valoración inicial por medicina general con la posibilidad de la realización de ayudas diagnosticas avanzadas y posible valoración por especialidades medicas con el animo de resolver en el menor tiempo posible lo que aqueja a cada paciente que acude a este servicio.
+--------------------------------------------------------------
+Consulta programada por especialista
+	Servicio ambulatorio programado con el cual la Clínica Santa Gertrudis desea cubrir la necesidad de valoraciones y conceptos de médicos especialistas en el municipio de Funza y sus alrededores.
+	Se contaran con especialidades de Medicina Familiar, Pediatría y Ginecología.
+
+	Medicina Familiar
+		* Consulta prioritaria
+		* Consulta para el control de enfermedades crónicas
+		* Consulta en cuidados paliativos y manejo del dolor
+		* Chequeo ejecutivo - Medicina preventiva
+	Pediatría
+		* Consulta prioritaria
+		* Consulta programada desde los 0 a los 16 años
+		* Consulta neonatal
+		* Consejería en lactancia, nutrición y vacunación
+		* Control de crecimiento y desarrollo
+	Ginecología
+		* Consulta prioritaria
+		* Evaluación, manejo y seguimiento de mujeres en embarazo
+		* Consulta de planificación familiar
+		* Consulta en patologías frecuentes de la mujer
+		* Consejería y manejo en la menopausia
+--------------------------------------------------------------
+Imagen diagnostica
+	Se cuenta principalmente con 2 áreas de atención en imágenes diagnosticas de la Clínica Santa Gertrudis las cuales son radiología convencional y ultrasonido.
+	El servicio de radiología convencional cuenta con digitalización de las imágenes y lectura con generación de informe por médico especialista con tiempos cortos de espera. El servicio de ultrasonido cuenta con tecnología actualizada para optimizar el diagnostico, así como la más amplia gama de estudios ecográficos disponibles permanentemente con el ánimo de ofrecer un servicio oportuno a quien lo requiera.
+
+	Se contaran con especialidades de Radiología y Ecografía.
+
+		Riadiologia
+			* Radiografías convencionales digitales a pacientes programados o de consulta prioritaria
+			* Ultrasonido obstétrico y ginecológico
+			* Ecografía general (Tiroides, mama, abdominal total, renal, hepática, prostática, tejidos blandos, etc)
+			* Doppler para estudios vasculares (Arterial y venoso)
+		Ecografia
+			NO HAY TEXTO O LISTADO ???
+--------------------------------------------------------------
+Laboratoriio clinico
+	* Hematología
+	* Inmunología
+	* Bioquímica clínica
+	* Microbiología clínica
+	* Micología
+	* Parasitología
+--------------------------------------------------------------
+Terapia respiratoria
+	* Nebulizaciones a bebes, niños y adultos
+	* Oximetría
+	* Oxigenoterapia
+	* Drenaje postural
+	* Control de adultos mayores con enfermedades pulmonares
+--------------------------------------------------------------
+Electrocardiografia
+	Se cuenta en la Clínica Santa Gertrudis de Funza con el servicio de electrocardiografía para pacientes que requieran de la valoración de forma prioritaria o programada, se generara informe medico especializado del resultado de dicho examen.

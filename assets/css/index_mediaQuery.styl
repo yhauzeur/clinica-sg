@@ -1,9 +1,30 @@
 @import "index_variables"
 
+@media Mw1440
+    .bg-mujer
+        min-height auto
+        .servicios-icons
+            grid-template-columns: repeat(7, 1fr)
+
+    // main
+    //     max-width: 2560px
+
+@media Mw1024
+    header
+        .fa-phone-square-alt
+            display: none
+
 // @media mw768 (orientation: landscape)
+    
 // @media mw2560
 // @media mw1440
-// @media mw1024
+@media mw1024
+    main
+        article
+            .service
+                .services
+                    summary
+                        display: block
 
 @media mw768
     header
@@ -24,6 +45,18 @@
                 font-size: 3em
                 margin-top .8em
                 padding .2em
+    main
+        padding 0
+        article
+            .service
+                overflow-x auto
+                white-space nowrap
+                grid-template-columns: repeat(6, 1fr)
+                .services
+                    margin 0
+                    padding 0 1em
+                p
+                    white-space: normal
 
 @media mw425
     main
@@ -31,6 +64,11 @@
             .description
                 img
                     width 100%
+        .description
+            img
+               width 100%
+               padding: 0
+               border-radius: 0
 
     .bg-mujer
         .servicios-icons
@@ -38,8 +76,3 @@
             i
                 font-size: 2.5em
                 margin-top .5em
-
-@media Mw1024
-    header
-        .fa-phone-square-alt
-            display: none

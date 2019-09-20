@@ -106,40 +106,53 @@ header
             background azul30
 
 main
-    max-width 1024px
+    max-width 1440px
     position relative
     margin 0 auto
     padding 0 1em
     box-sizing: border-box
+    .description
+        img
+            border-radius: 1em
+            float left
+            margin-bottom .5em
+            padding-right 1em
+            width 250px
     article
-        .description
-                img
-                    border-radius: 1em
-                    float left
-                    margin-bottom .5em
-                    padding-right 1em
-                    width 250px
-        .services
-            overflow-x auto
-            margin-bottom 3em
-            white-space nowrap
-            .item-service
-                background rgba(azul, 1)
-                border-radius: 20px
-                box-sizing border-box
+        .service
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            grid-template-rows: repeat(1, 1fr)
+            margin 1em 0
+            .services
                 color white
-                display inline-block
-                margin auto 10px
-                max-height 100vh
-                max-width 70%
-                padding 1em 1em
-                white-space: normal
-                h2
-                    border-bottom: 1px solid rgba(white, .5)
-                    width 50%
-                ul, li
-                    margin .5em
-                    padding 0 .5em
+                margin .5em .5em
+                padding 0 1em
+                summary
+                    text-align: center
+                    display inline-block
+                    margin 0 .5em
+                    box-sizing: border-box
+                    h3
+                        margin 0 auto
+                    ul
+                        li
+                            text-align: left
+                    details
+                        margin-bottom 2em
+            #services-1
+                background rgba(azul, 100%)
+            #services-2
+                background rgba(azul, 90%)
+            #services-3
+                background rgba(azul, 80%)
+            #services-4
+                background rgba(azul, 70%)
+            #services-5
+                background rgba(azul, 60%)
+            #services-6
+                background rgba(azul, 50%)
+
 .bg-mujer
     background-image: url('../img/ani-kolleshi-vu-DaZVeny0-unsplash.jpg')
     background-position: left
@@ -174,4 +187,4 @@ aside
     iframe
         margin 2em auto
 
-@import "index_mediaQuery"
+@import "index_mediaQuery"  
